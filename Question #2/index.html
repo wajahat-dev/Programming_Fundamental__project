@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>smiu</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="decoration.css">
+    <script src="./temperature_conversion.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="box ">
+                <div class="box-body ">
+                    <h2>Temperature Conversion program </h2>
+                    <br />
+                    <div class="formItem ">
+                        <label for="value ">Enter Value in Celsius:</label>
+                        <input type="text " class="form-control " id="value ">
+                    </div>
+                    <br />
+                    <div class="formItem">
+                        <label>
+                            <input type="radio" name="optradio">Farenhit
+                        </label>
+                        <label>
+                            <input type="radio" name="optradio">Kelvin
+                        </label>
+                    </div>
+                    <br />
+                    <div class="formItem ">
+                        <label for="conversion ">Result:</label>
+                        <input type="text " class="form-control" id="conversion " readonly>
+                    </div>
+                    <br />
+                    <button type="submit " class="button" onclick="TemperatureConverstion() "> calculate </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
