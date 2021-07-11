@@ -3,4 +3,4 @@
 1), 2) Converter
 3) list the nth value of pie
 
-wajahat-smiu.surge.sh
+https://wajahat-smiu.surge.sh
